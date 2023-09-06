@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bg-[url('./images/pattern-curve.svg')] bg-no-repeat bg-[length:80%] bg-left-bottom sm:bg-[length:0%] min-h-[100vh] sm:h-[100vh] text-[1.1rem] sm:flex sm:justify-center sm:items-center"
+  >
+    <div
+      class="mx-6 my-6 grid gap-8 sm:grid-flow-row sm:grid-cols-7 sm:grid-rows-4 sm:h-full max-w-[1200px] sm:px-28 sm:py-12"
+    >
+      <div
+        class="p-8 bg-[url('./images/pattern-bg.svg')] bg-[length:100%_100%] bg-center bg-no-repeat sm:col-start-4 sm:col-end-8 sm:row-start-1 sm:row-end-5 h-full"
+      >
+        <div class="relative h-full">
+          <img
+            src=""
+            alt=""
+            class="mx-auto w-[100%] h-[100%] sm:w-[90%] shadow-[0_24px_38px_-24px]"
+            id="image"
+          />
+          <div
+            class="flex bg-white px-3 py-2 rounded-full gap-8 absolute -translate-x-1/2 left-1/2 -translate-y-1/2 sm:left-[20%]"
+          >
+            <img src="./images/icon-prev.svg" alt="" id="prev" />
+            <img src="./images/icon-next.svg" alt="" id="next" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center bg-[url('./images/pattern-quotes.svg')] bg-no-repeat bg-top bg-[length:60px] py-2 sm:row-start-2 sm:row-end-4 sm:col-start-1 sm:col-end-5 sm:text-left z-10 sm:flex sm:flex-col sm:justify-center sm:py-6 sm:px-12 sm:bg-[length:80px]"
+      >
+        <p class="text-darkBlue mb-4">
+          <q id="details"></q>
+        </p>
+        <div class="sm:flex sm:gap-2">
+          <p class="text-darkBlue font-bold" id="name"></p>
+          <p class="text-grayishBlue" id="role"></p>
+        </div>
+      </div>
+    </div>
+
+    <input type="range" name="" id="" />
+
+    <script src="./main.js"></script>
+  </body>
+</html>
