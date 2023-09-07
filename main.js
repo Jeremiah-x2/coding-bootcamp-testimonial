@@ -8,7 +8,7 @@ const image = document.getElementById("image");
 const testimonialsArr = [
   {
     id: 1,
-    image: "/images/image-tanya.jpg",
+    image: "./images/image-tanya.jpg",
     name: "Tanya Sinclair",
     role: "UX Engineer",
     testimony:
@@ -17,7 +17,7 @@ const testimonialsArr = [
 
   {
     id: 1,
-    image: "/images/image-john.jpg",
+    image: "./images/image-john.jpg",
     name: "John Tarkpor",
     role: "Junior Front-end Developer",
     testimony:
